@@ -28,7 +28,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    text-shadow: 1px 0px 20px yellow;
+    text-shadow: 1px 0px 20px white;
 }
 
 div.icons {
@@ -41,5 +41,5 @@ div.icons {
 }
 i:hover {
     cursor: pointer;
-    text-shadow: 1px 0px 20px yellow;
+    text-shadow: 1px 0px 20px white;
 }
