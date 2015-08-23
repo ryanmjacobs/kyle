@@ -61,7 +61,7 @@ var chip = Matter.Bodies.rectangle(410, 150, 200, 252, {
     friction: 0, restitution: 1,
     render: {sprite: { texture: "img/resized/chip.png" }}
 });
-var shoe = Matter.Bodies.rectangle(300, 200, 125, 83, {
+var shoe = Matter.Bodies.rectangle(300, 300, 125, 83, {
     friction: 0, restitution: 1,
     render: {sprite: { texture: "img/resized/shoe.png" }}
 });
