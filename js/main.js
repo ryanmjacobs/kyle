@@ -88,13 +88,16 @@ Matter.Engine.run(engine);
 
 /* Play some audio on collisions */
 Matter.Events.on(engine, 'collisionStart', function(event) {
+    // only play audio 10% of the time
+    if (Math.random() > 0.10)
+        return;
+
     var fname = ["../audio/kyle-clip-1.mp3",
                  "../audio/kyle-clip-2.mp3",
                  "../audio/kyle-clip-3.mp3"]
         [Math.floor(Math.random() * 3)];
 
-    if (Math.random() > 0.9)
-        new Audio(fname).play();
+    new Audio(fname).play();
 });
 
 /* Randomly generate force every 500ms */
