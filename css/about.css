@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300);
+
+body {
+    width: 750px;
+    margin: 0 auto;
+
+    color: white;
+    background: black;
+    font-family: Monospace;
+}
+
+h1 {
+    margin-top: 15vh;
+    display: inline-block;
+    font-family: "Quicksand";
+    border-bottom: 1px solid white;
+}
+
+p {
+    font-size: 14px;
+    text-align: justify;
+    margin-right: 5em;
+    margin-bottom: 2.5em;
+}
+
+img {
+    float: right;
+    width: 250px;
+    margin-left: 2em;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+
+#content {
+    margin-top: 0.5vh;
+}
