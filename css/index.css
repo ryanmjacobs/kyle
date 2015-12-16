@@ -1,10 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Quicksand:300);
 
-body {
-    color: white;
-    background: black;
-}
-
 h1 {
     margin-top: 30vh;
     margin-bottom: 0;
@@ -46,21 +41,33 @@ i:hover {
     text-shadow: 1px 0px 20px white;
 }
 
-#footer {
+/* the good stuff... */
+body {
+    color: white;
+    background: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 97vh;
+    overflow-y: hidden;
+}
+
+footer {
     color: white;
     font-family: Monospace;
 
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    left: -20px;
-    width:100%;
-    text-align: right;
+    margin-left:  2px;
+    margin-right: 2px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-text p {
+    height: 2px;
 }
 
-#footer a {
-    text-decoration: none;
-}
-#footer a:hover {
-    text-decoration: underline;
-}
+footer a       { text-decoration: underline; }
+footer a:hover { text-decoration: none; }
