@@ -13,10 +13,12 @@ cover.style.padding = "1vw";
 
 cover.innerHTML =
     'What\'s better than a cold domen?<br><br>' +
-    '<a href="#" id="ahotdomen">a hot domen</a>';
+    '<a id="ahotdomen">a hot domen</a>';
 
 let linky = document.getElementById("ahotdomen");
 linky.style.color = "blue";
+linky.style.textDecoration = "underline";
+linky.style.cursor = "pointer";
 linky.style.paddingLeft = "2em";
 linky.onclick = function() {
     document.body.removeChild(cover);
